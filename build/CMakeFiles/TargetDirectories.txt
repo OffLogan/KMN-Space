@@ -1,0 +1,3 @@
+/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles/alpha_project_lib.dir
+/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles/edit_cache.dir
+/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles/rebuild_cache.dir

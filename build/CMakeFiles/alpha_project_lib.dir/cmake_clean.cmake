@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/home.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/home.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/label.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/label.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/note.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/note.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/subject.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/subject.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/task.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/task.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o.d"
+  "CMakeFiles/alpha_project_lib.dir/src/user.cc.o"
+  "CMakeFiles/alpha_project_lib.dir/src/user.cc.o.d"
+  "libalpha_project_lib.a"
+  "libalpha_project_lib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/alpha_project_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

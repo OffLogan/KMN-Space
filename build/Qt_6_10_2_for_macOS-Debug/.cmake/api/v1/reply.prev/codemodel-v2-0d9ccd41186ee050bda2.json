@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alpha_project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alpha_project_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alpha_project_app-Debug-88dbf7167a27526d0e9f.json",
+					"name" : "alpha_project_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alpha_project_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alpha_project_lib-Debug-19d5635c008ffec0a74d.json",
+					"name" : "alpha_project_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug",
+		"source" : "/Users/antoniojimbermembrillo/alpha_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
