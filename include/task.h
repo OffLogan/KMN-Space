@@ -5,6 +5,7 @@
 #define TASK_H
 
 #include <string>
+#include <vector>
 
 class Task{
     private:
@@ -27,6 +28,17 @@ class Task{
         void CompleteTask();
 };
 
+
+
+class TaskData{
+    private:
+        //Data structure to contains de tasks data
+        std::vector<Task>data_;
+    public:
+        TaskData();
+        std::vector<Task> Data_() const;
+        bool Load(/*path*/);
+};
 
 
 
