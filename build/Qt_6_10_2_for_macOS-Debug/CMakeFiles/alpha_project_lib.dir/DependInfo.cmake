@@ -8,15 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "alpha_project_lib_autogen/timestamp" "custom" "alpha_project_lib_autogen/deps"
+  "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp" "CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/dataGestorJSON.cc" "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/folder.cc" "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc" "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o.d"
-  "/Users/antoniojimbermembrillo/alpha_project/src/home.cc" "CMakeFiles/alpha_project_lib.dir/src/home.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/home.cc.o.d"
+  "/Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc" "CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/label.cc" "CMakeFiles/alpha_project_lib.dir/src/label.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/label.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/note.cc" "CMakeFiles/alpha_project_lib.dir/src/note.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/note.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc" "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc" "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o.d"
-  "/Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc" "CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o.d"
+  "/Users/antoniojimbermembrillo/alpha_project/src/reminder.cc" "CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc" "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/schedule.cc" "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/src/settings.cc" "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o" "gcc" "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o.d"

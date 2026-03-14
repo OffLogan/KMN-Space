@@ -69,10 +69,31 @@ include CMakeFiles/alpha_project_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alpha_project_lib.dir/flags.make
 
+alpha_project_lib_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/libexec/moc
+alpha_project_lib_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/libexec/uic
+alpha_project_lib_autogen/timestamp: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target alpha_project_lib"
+	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/alpha_project_lib_autogen.dir/AutogenInfo.json Debug
+	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/timestamp
+
+CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o: CMakeFiles/alpha_project_lib.dir/flags.make
+CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o: alpha_project_lib_autogen/mocs_compilation.cpp
+CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o -MF CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o -c /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp
+
+CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp > CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp -o CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/dataGestorJSON.cc
 CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/dataGestorJSON.cc
 
 CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.i: cmake_force
@@ -86,7 +107,7 @@ CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/folder.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/folder.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/folder.cc
 CMakeFiles/alpha_project_lib.dir/src/folder.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/folder.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/folder.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/folder.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/folder.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/folder.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/folder.cc
 
 CMakeFiles/alpha_project_lib.dir/src/folder.cc.i: cmake_force
@@ -100,7 +121,7 @@ CMakeFiles/alpha_project_lib.dir/src/folder.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc
 CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc
 
 CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.i: cmake_force
@@ -111,24 +132,24 @@ CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc -o CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/home.cc
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/home.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/home.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/home.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/home.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/home.cc
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/home.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/home.cc > CMakeFiles/alpha_project_lib.dir/src/home.cc.i
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc > CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/home.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/home.cc -o CMakeFiles/alpha_project_lib.dir/src/home.cc.s
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc -o CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s
 
 CMakeFiles/alpha_project_lib.dir/src/label.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/label.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/label.cc
 CMakeFiles/alpha_project_lib.dir/src/label.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/label.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/label.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/label.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/label.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/label.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/label.cc
 
 CMakeFiles/alpha_project_lib.dir/src/label.cc.i: cmake_force
@@ -142,7 +163,7 @@ CMakeFiles/alpha_project_lib.dir/src/label.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/note.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/note.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/note.cc
 CMakeFiles/alpha_project_lib.dir/src/note.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/note.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/note.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/note.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/note.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/note.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/note.cc
 
 CMakeFiles/alpha_project_lib.dir/src/note.cc.i: cmake_force
@@ -156,7 +177,7 @@ CMakeFiles/alpha_project_lib.dir/src/note.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc
 CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc
 
 CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.i: cmake_force
@@ -170,7 +191,7 @@ CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc
 CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc
 
 CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.i: cmake_force
@@ -181,24 +202,24 @@ CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc -o CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc > CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc > CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc -o CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc -o CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s
 
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc
 
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.i: cmake_force
@@ -212,7 +233,7 @@ CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/schedule.cc
 CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/schedule.cc
 
 CMakeFiles/alpha_project_lib.dir/src/schedule.cc.i: cmake_force
@@ -226,7 +247,7 @@ CMakeFiles/alpha_project_lib.dir/src/schedule.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/settings.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/settings.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/settings.cc
 CMakeFiles/alpha_project_lib.dir/src/settings.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/settings.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/settings.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/settings.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/settings.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/settings.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/settings.cc
 
 CMakeFiles/alpha_project_lib.dir/src/settings.cc.i: cmake_force
@@ -240,7 +261,7 @@ CMakeFiles/alpha_project_lib.dir/src/settings.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/subject.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/subject.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/subject.cc
 CMakeFiles/alpha_project_lib.dir/src/subject.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/subject.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/subject.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/subject.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/subject.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/subject.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/subject.cc
 
 CMakeFiles/alpha_project_lib.dir/src/subject.cc.i: cmake_force
@@ -254,7 +275,7 @@ CMakeFiles/alpha_project_lib.dir/src/subject.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/task.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/task.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/task.cc
 CMakeFiles/alpha_project_lib.dir/src/task.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/task.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/task.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/task.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/task.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/task.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/task.cc
 
 CMakeFiles/alpha_project_lib.dir/src/task.cc.i: cmake_force
@@ -268,7 +289,7 @@ CMakeFiles/alpha_project_lib.dir/src/task.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/taskGestor.cc
 CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/taskGestor.cc
 
 CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.i: cmake_force
@@ -282,7 +303,7 @@ CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.s: cmake_force
 CMakeFiles/alpha_project_lib.dir/src/user.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/user.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/user.cc
 CMakeFiles/alpha_project_lib.dir/src/user.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/user.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/user.cc.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/user.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/user.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/user.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/user.cc
 
 CMakeFiles/alpha_project_lib.dir/src/user.cc.i: cmake_force
@@ -295,15 +316,16 @@ CMakeFiles/alpha_project_lib.dir/src/user.cc.s: cmake_force
 
 # Object files for target alpha_project_lib
 alpha_project_lib_OBJECTS = \
+"CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o" \
-"CMakeFiles/alpha_project_lib.dir/src/home.cc.o" \
+"CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/label.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/note.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o" \
-"CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o" \
+"CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o" \
@@ -315,15 +337,16 @@ alpha_project_lib_OBJECTS = \
 # External object files for target alpha_project_lib
 alpha_project_lib_EXTERNAL_OBJECTS =
 
+libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/folder.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o
-libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/home.cc.o
+libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/label.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/note.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o
-libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o
+libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/settings.cc.o
@@ -333,7 +356,7 @@ libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/taskGestor.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/user.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/build.make
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libalpha_project_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libalpha_project_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/alpha_project_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/alpha_project_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -345,7 +368,7 @@ CMakeFiles/alpha_project_lib.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/alpha_project_lib.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/alpha_project_lib.dir/clean
 
-CMakeFiles/alpha_project_lib.dir/depend:
+CMakeFiles/alpha_project_lib.dir/depend: alpha_project_lib_autogen/timestamp
 	cd /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/antoniojimbermembrillo/alpha_project /Users/antoniojimbermembrillo/alpha_project /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/alpha_project_lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/alpha_project_lib.dir/depend
 

@@ -1,0 +1,4 @@
+set(__QT_DEPLOY_TARGET_alpha_project_lib_FILE /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/libalpha_project_lib.a)
+set(__QT_DEPLOY_TARGET_alpha_project_lib_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_alpha_project_app_FILE /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project)
+set(__QT_DEPLOY_TARGET_alpha_project_app_TYPE EXECUTABLE)

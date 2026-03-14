@@ -227,3 +227,97 @@ events:
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Config.cmake:180 (include)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:20 (find_dependency)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    directories:
+      source: "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-QGwZ51"
+      binary: "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-QGwZ51"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6;/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-QGwZ51'
+        
+        Run Build Command(s): /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_659a9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_659a9.dir/build.make CMakeFiles/cmTC_659a9.dir/build
+        Building CXX object CMakeFiles/cmTC_659a9.dir/src.cxx.o
+        /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -MD -MT CMakeFiles/cmTC_659a9.dir/src.cxx.o -MF CMakeFiles/cmTC_659a9.dir/src.cxx.o.d -o CMakeFiles/cmTC_659a9.dir/src.cxx.o -c /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-QGwZ51/src.cxx
+        Linking CXX executable cmTC_659a9
+        /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_659a9.dir/link.txt --verbose=1
+        /usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_659a9.dir/src.cxx.o -o cmTC_659a9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-kKE7wD"
+      binary: "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-kKE7wD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6;/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-kKE7wD'
+        
+        Run Build Command(s): /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f7d3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2f7d3.dir/build.make CMakeFiles/cmTC_2f7d3.dir/build
+        Building CXX object CMakeFiles/cmTC_2f7d3.dir/src.cxx.o
+        /usr/bin/clang++ -DHAVE_STDATOMIC  -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -MD -MT CMakeFiles/cmTC_2f7d3.dir/src.cxx.o -MF CMakeFiles/cmTC_2f7d3.dir/src.cxx.o.d -o CMakeFiles/cmTC_2f7d3.dir/src.cxx.o -c /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/CMakeScratch/TryCompile-kKE7wD/src.cxx
+        Linking CXX executable cmTC_2f7d3
+        /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f7d3.dir/link.txt --verbose=1
+        /usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f7d3.dir/src.cxx.o -o cmTC_2f7d3
+        
+      exitCode: 0
+...

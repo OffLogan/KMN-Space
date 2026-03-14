@@ -2,7 +2,7 @@
 //Implementation file for the settings class
 
 #include "../include/settings.h"
-#include "../ui/settings.ui"
+#include "ui_settings.h"
 
 settings::settings(QWidget *parent)
     : QDialog(parent)

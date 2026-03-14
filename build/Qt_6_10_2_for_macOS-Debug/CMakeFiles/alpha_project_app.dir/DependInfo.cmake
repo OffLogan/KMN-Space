@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "alpha_project_app_autogen/timestamp" "custom" "alpha_project_app_autogen/deps"
+  "/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/mocs_compilation.cpp" "CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o.d"
   "/Users/antoniojimbermembrillo/alpha_project/app/main.cpp" "CMakeFiles/alpha_project_app.dir/app/main.cpp.o" "gcc" "CMakeFiles/alpha_project_app.dir/app/main.cpp.o.d"
-  "/Users/antoniojimbermembrillo/alpha_project/homescreen.cpp" "CMakeFiles/alpha_project_app.dir/homescreen.cpp.o" "gcc" "CMakeFiles/alpha_project_app.dir/homescreen.cpp.o.d"
-  "/Users/antoniojimbermembrillo/alpha_project/settings.cc" "CMakeFiles/alpha_project_app.dir/settings.cc.o" "gcc" "CMakeFiles/alpha_project_app.dir/settings.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

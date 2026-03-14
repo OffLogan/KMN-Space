@@ -114,19 +114,19 @@ CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc -o CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.s
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/home.cc
-CMakeFiles/alpha_project_lib.dir/src/home.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/home.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/home.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/home.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/home.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/home.cc
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/home.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/home.cc > CMakeFiles/alpha_project_lib.dir/src/home.cc.i
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc > CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.i
 
-CMakeFiles/alpha_project_lib.dir/src/home.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/home.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/home.cc -o CMakeFiles/alpha_project_lib.dir/src/home.cc.s
+CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc -o CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.s
 
 CMakeFiles/alpha_project_lib.dir/src/label.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/label.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/label.cc
@@ -184,19 +184,19 @@ CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc -o CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.s
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: CMakeFiles/alpha_project_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o -MF CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o.d -o CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc > CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.i
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc > CMakeFiles/alpha_project_lib.dir/src/reminder.cc.i
 
-CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/remeinder.cc -o CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.s
+CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/reminder.cc -o CMakeFiles/alpha_project_lib.dir/src/reminder.cc.s
 
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o: CMakeFiles/alpha_project_lib.dir/flags.make
 CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc
@@ -301,12 +301,12 @@ alpha_project_lib_OBJECTS = \
 "CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/folder.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o" \
-"CMakeFiles/alpha_project_lib.dir/src/home.cc.o" \
+"CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/label.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/note.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o" \
-"CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o" \
+"CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o" \
 "CMakeFiles/alpha_project_lib.dir/src/settings.cc.o" \
@@ -321,12 +321,12 @@ alpha_project_lib_EXTERNAL_OBJECTS =
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/dataGestorJSON.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/folder.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/folderGestor.cc.o
-libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/home.cc.o
+libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/label.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/note.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/noteGestor.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/pdfGestor.cc.o
-libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/remeinder.cc.o
+libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/reminderGestor.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/schedule.cc.o
 libalpha_project_lib.a: CMakeFiles/alpha_project_lib.dir/src/settings.cc.o

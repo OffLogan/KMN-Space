@@ -69,10 +69,31 @@ include CMakeFiles/alpha_project_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alpha_project_app.dir/flags.make
 
+alpha_project_app_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/libexec/moc
+alpha_project_app_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/libexec/uic
+alpha_project_app_autogen/timestamp: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target alpha_project_app"
+	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/alpha_project_app_autogen.dir/AutogenInfo.json Debug
+	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/timestamp
+
+CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o: CMakeFiles/alpha_project_app.dir/flags.make
+CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o: alpha_project_app_autogen/mocs_compilation.cpp
+CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o -MF CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o -c /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/mocs_compilation.cpp
+
+CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/mocs_compilation.cpp > CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/mocs_compilation.cpp -o CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/alpha_project_app.dir/app/main.cpp.o: CMakeFiles/alpha_project_app.dir/flags.make
 CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/alpha_project/app/main.cpp
 CMakeFiles/alpha_project_app.dir/app/main.cpp.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alpha_project_app.dir/app/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_app.dir/app/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/app/main.cpp.o -MF CMakeFiles/alpha_project_app.dir/app/main.cpp.o.d -o CMakeFiles/alpha_project_app.dir/app/main.cpp.o -c /Users/antoniojimbermembrillo/alpha_project/app/main.cpp
 
 CMakeFiles/alpha_project_app.dir/app/main.cpp.i: cmake_force
@@ -83,48 +104,21 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/app/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/app/main.cpp -o CMakeFiles/alpha_project_app.dir/app/main.cpp.s
 
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: CMakeFiles/alpha_project_app.dir/flags.make
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_app.dir/homescreen.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/homescreen.cpp.o -MF CMakeFiles/alpha_project_app.dir/homescreen.cpp.o.d -o CMakeFiles/alpha_project_app.dir/homescreen.cpp.o -c /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp
-
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/homescreen.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp > CMakeFiles/alpha_project_app.dir/homescreen.cpp.i
-
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/homescreen.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp -o CMakeFiles/alpha_project_app.dir/homescreen.cpp.s
-
-CMakeFiles/alpha_project_app.dir/settings.cc.o: CMakeFiles/alpha_project_app.dir/flags.make
-CMakeFiles/alpha_project_app.dir/settings.cc.o: /Users/antoniojimbermembrillo/alpha_project/settings.cc
-CMakeFiles/alpha_project_app.dir/settings.cc.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_app.dir/settings.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/settings.cc.o -MF CMakeFiles/alpha_project_app.dir/settings.cc.o.d -o CMakeFiles/alpha_project_app.dir/settings.cc.o -c /Users/antoniojimbermembrillo/alpha_project/settings.cc
-
-CMakeFiles/alpha_project_app.dir/settings.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/settings.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/settings.cc > CMakeFiles/alpha_project_app.dir/settings.cc.i
-
-CMakeFiles/alpha_project_app.dir/settings.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/settings.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/settings.cc -o CMakeFiles/alpha_project_app.dir/settings.cc.s
-
 # Object files for target alpha_project_app
 alpha_project_app_OBJECTS = \
-"CMakeFiles/alpha_project_app.dir/app/main.cpp.o" \
-"CMakeFiles/alpha_project_app.dir/homescreen.cpp.o" \
-"CMakeFiles/alpha_project_app.dir/settings.cc.o"
+"CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/alpha_project_app.dir/app/main.cpp.o"
 
 # External object files for target alpha_project_app
 alpha_project_app_EXTERNAL_OBJECTS =
 
+alpha_project: CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o
 alpha_project: CMakeFiles/alpha_project_app.dir/app/main.cpp.o
-alpha_project: CMakeFiles/alpha_project_app.dir/homescreen.cpp.o
-alpha_project: CMakeFiles/alpha_project_app.dir/settings.cc.o
 alpha_project: CMakeFiles/alpha_project_app.dir/build.make
 alpha_project: libalpha_project_lib.a
+alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/QtGui
+alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/QtCore
 alpha_project: CMakeFiles/alpha_project_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable alpha_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/alpha_project_app.dir/link.txt --verbose=$(VERBOSE)
@@ -137,7 +131,7 @@ CMakeFiles/alpha_project_app.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/alpha_project_app.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/alpha_project_app.dir/clean
 
-CMakeFiles/alpha_project_app.dir/depend:
+CMakeFiles/alpha_project_app.dir/depend: alpha_project_app_autogen/timestamp
 	cd /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/antoniojimbermembrillo/alpha_project /Users/antoniojimbermembrillo/alpha_project /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/alpha_project_app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/alpha_project_app.dir/depend
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/alpha_project_app.dir/app/main.cpp.o"
   "CMakeFiles/alpha_project_app.dir/app/main.cpp.o.d"
-  "CMakeFiles/alpha_project_app.dir/homescreen.cpp.o"
-  "CMakeFiles/alpha_project_app.dir/homescreen.cpp.o.d"
-  "CMakeFiles/alpha_project_app.dir/settings.cc.o"
-  "CMakeFiles/alpha_project_app.dir/settings.cc.o.d"
+  "CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o"
+  "CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o.d"
+  "CMakeFiles/alpha_project_app.dir/src/settings.cc.o"
+  "CMakeFiles/alpha_project_app.dir/src/settings.cc.o.d"
   "alpha_project"
   "alpha_project.pdb"
 )

@@ -2,6 +2,7 @@
 #define HOMESCREEN_H
 
 #include <QDialog>
+#include <QListWidgetItem>
 
 namespace Ui {
 class homeScreen;
@@ -15,7 +16,19 @@ public:
     explicit homeScreen(QWidget *parent = nullptr);
     ~homeScreen();
 
+private slots:
+    void addTask();
+    void addReminder();
+    void removeTaskItem(QListWidgetItem *item);
+    void removeReminderItem(QListWidgetItem *item);
+    void openSettings();
+
 private:
+    QString buildTaskText() const;
+    QString buildReminderText() const;
+    void clearTaskInputs();
+    void clearReminderInputs();
+
     Ui::homeScreen *ui;
 };
 

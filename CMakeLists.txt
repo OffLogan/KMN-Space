@@ -5,6 +5,12 @@ project(alpha_project VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui")
+
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
 file(GLOB PROJECT_HEADERS CONFIGURE_DEPENDS
     "${CMAKE_CURRENT_SOURCE_DIR}/include/*.h"
@@ -22,11 +28,18 @@ endif()
 add_library(alpha_project_lib STATIC
     ${PROJECT_HEADERS}
     ${PROJECT_SOURCES}
+    ui/homescreen.ui
+    ui/settings.ui
 )
 
 target_include_directories(alpha_project_lib
     PUBLIC
         "${CMAKE_CURRENT_SOURCE_DIR}/include"
+)
+
+target_link_libraries(alpha_project_lib
+    PUBLIC
+        Qt6::Widgets
 )
 
 if(APPLE)
@@ -48,9 +61,7 @@ set(APP_MAIN
 )
 
 if(EXISTS "${APP_MAIN}")
-    add_executable(alpha_project_app "${APP_MAIN}"
-        homescreen.h homescreen.cpp homescreen.ui
-        settings.h settings.cc settings.ui)
+    add_executable(alpha_project_app "${APP_MAIN}")
     target_link_libraries(alpha_project_app PRIVATE alpha_project_lib)
     set_target_properties(alpha_project_app PROPERTIES OUTPUT_NAME "alpha_project")
 else()

@@ -6,7 +6,5 @@ CXX_DEFINES = -DPLATFORM_MACOS=1
 
 CXX_INCLUDES = -I/Users/antoniojimbermembrillo/alpha_project/include
 
-CXX_FLAGSarm64 = -g -std=c++17 -arch arm64
-
-CXX_FLAGS = -g -std=c++17 -arch arm64
+CXX_FLAGS = -g -std=c++17
 

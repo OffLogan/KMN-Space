@@ -86,46 +86,46 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/app/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/app/main.cpp -o CMakeFiles/alpha_project_app.dir/app/main.cpp.s
 
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: CMakeFiles/alpha_project_app.dir/flags.make
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_app.dir/homescreen.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/homescreen.cpp.o -MF CMakeFiles/alpha_project_app.dir/homescreen.cpp.o.d -o CMakeFiles/alpha_project_app.dir/homescreen.cpp.o -c /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp
+CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_app.dir/flags.make
+CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
+CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o -MF CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o.d -o CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc
 
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/homescreen.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp > CMakeFiles/alpha_project_app.dir/homescreen.cpp.i
+CMakeFiles/alpha_project_app.dir/src/homescreen.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/src/homescreen.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc > CMakeFiles/alpha_project_app.dir/src/homescreen.cc.i
 
-CMakeFiles/alpha_project_app.dir/homescreen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/homescreen.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/homescreen.cpp -o CMakeFiles/alpha_project_app.dir/homescreen.cpp.s
+CMakeFiles/alpha_project_app.dir/src/homescreen.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/src/homescreen.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc -o CMakeFiles/alpha_project_app.dir/src/homescreen.cc.s
 
-CMakeFiles/alpha_project_app.dir/settings.cc.o: CMakeFiles/alpha_project_app.dir/flags.make
-CMakeFiles/alpha_project_app.dir/settings.cc.o: /Users/antoniojimbermembrillo/alpha_project/settings.cc
-CMakeFiles/alpha_project_app.dir/settings.cc.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_app.dir/settings.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/settings.cc.o -MF CMakeFiles/alpha_project_app.dir/settings.cc.o.d -o CMakeFiles/alpha_project_app.dir/settings.cc.o -c /Users/antoniojimbermembrillo/alpha_project/settings.cc
+CMakeFiles/alpha_project_app.dir/src/settings.cc.o: CMakeFiles/alpha_project_app.dir/flags.make
+CMakeFiles/alpha_project_app.dir/src/settings.cc.o: /Users/antoniojimbermembrillo/alpha_project/src/settings.cc
+CMakeFiles/alpha_project_app.dir/src/settings.cc.o: CMakeFiles/alpha_project_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alpha_project_app.dir/src/settings.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_project_app.dir/src/settings.cc.o -MF CMakeFiles/alpha_project_app.dir/src/settings.cc.o.d -o CMakeFiles/alpha_project_app.dir/src/settings.cc.o -c /Users/antoniojimbermembrillo/alpha_project/src/settings.cc
 
-CMakeFiles/alpha_project_app.dir/settings.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/settings.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/settings.cc > CMakeFiles/alpha_project_app.dir/settings.cc.i
+CMakeFiles/alpha_project_app.dir/src/settings.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alpha_project_app.dir/src/settings.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoniojimbermembrillo/alpha_project/src/settings.cc > CMakeFiles/alpha_project_app.dir/src/settings.cc.i
 
-CMakeFiles/alpha_project_app.dir/settings.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/settings.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/settings.cc -o CMakeFiles/alpha_project_app.dir/settings.cc.s
+CMakeFiles/alpha_project_app.dir/src/settings.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alpha_project_app.dir/src/settings.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoniojimbermembrillo/alpha_project/src/settings.cc -o CMakeFiles/alpha_project_app.dir/src/settings.cc.s
 
 # Object files for target alpha_project_app
 alpha_project_app_OBJECTS = \
 "CMakeFiles/alpha_project_app.dir/app/main.cpp.o" \
-"CMakeFiles/alpha_project_app.dir/homescreen.cpp.o" \
-"CMakeFiles/alpha_project_app.dir/settings.cc.o"
+"CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o" \
+"CMakeFiles/alpha_project_app.dir/src/settings.cc.o"
 
 # External object files for target alpha_project_app
 alpha_project_app_EXTERNAL_OBJECTS =
 
 alpha_project: CMakeFiles/alpha_project_app.dir/app/main.cpp.o
-alpha_project: CMakeFiles/alpha_project_app.dir/homescreen.cpp.o
-alpha_project: CMakeFiles/alpha_project_app.dir/settings.cc.o
+alpha_project: CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o
+alpha_project: CMakeFiles/alpha_project_app.dir/src/settings.cc.o
 alpha_project: CMakeFiles/alpha_project_app.dir/build.make
 alpha_project: libalpha_project_lib.a
 alpha_project: CMakeFiles/alpha_project_app.dir/link.txt
