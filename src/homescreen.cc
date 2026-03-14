@@ -1,5 +1,5 @@
-#include "homescreen.h"
-#include "ui_homescreen.h"
+#include "../include/homescreen.h"
+#include "../ui/homescreen.ui"
 
 homeScreen::homeScreen(QWidget *parent)
     : QDialog(parent)

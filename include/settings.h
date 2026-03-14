@@ -1,8 +1,29 @@
+//Settings.h
+//Header file for settings class
 
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
+#include <QDialog>
 #include <string>
+
+
+namespace Ui {
+class settings;
+}
+
+class settings : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit settings(QWidget *parent = nullptr);
+    ~settings();
+
+private:
+    Ui::settings *ui;
+};
+
 
 
 class Settings{
@@ -30,4 +51,4 @@ class Settings{
 
 
 
-#endif
+#endif // SETTINGS_H
