@@ -997,5 +997,11 @@ CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20algorithm.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_notes.cpp \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/notes.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_notesEditor.cpp \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/notesEditor.h \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_settings.cpp \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/settings.h

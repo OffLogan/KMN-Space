@@ -29,6 +29,8 @@ add_library(alpha_project_lib STATIC
     ${PROJECT_HEADERS}
     ${PROJECT_SOURCES}
     ui/homescreen.ui
+    ui/notes.ui
+    ui/noteseditor.ui
     ui/settings.ui
 )
 

@@ -38,19 +38,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 56,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 46,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -72,7 +72,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 35,
+				"line" : 37,
 				"parent" : 0
 			}
 		]
@@ -188,7 +188,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				17,
 				18,
 				19,
 				20,
@@ -203,7 +202,9 @@
 				29,
 				30,
 				31,
-				32
+				32,
+				33,
+				34
 			]
 		}
 	],
@@ -232,7 +233,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				17,
 				18,
 				19,
 				20,
@@ -247,7 +247,9 @@
 				29,
 				30,
 				31,
-				32
+				32,
+				33,
+				34
 			]
 		},
 		{
@@ -270,30 +272,35 @@
 				14,
 				15,
 				16,
-				35,
-				36
+				17,
+				39,
+				40,
+				41,
+				42
 			]
 		},
 		{
 			"name" : "Forms",
 			"sourceIndexes" : 
 			[
-				33,
-				34
+				35,
+				36,
+				37,
+				38
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				37
+				43
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				38
+				44
 			]
 		}
 	],
@@ -333,12 +340,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/note.h",
+			"path" : "include/noteGestor.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/noteGestor.h",
+			"path" : "include/notes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/notesEditor.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -419,13 +431,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/note.cc",
+			"path" : "src/noteGestor.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/noteGestor.cc",
+			"path" : "src/notes.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/notesEditor.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -489,6 +507,16 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "ui/notes.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ui/noteseditor.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
 			"path" : "ui/settings.ui",
 			"sourceGroupIndex" : 2
 		},
@@ -496,6 +524,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_homescreen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_notes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_noteseditor.h",
 			"sourceGroupIndex" : 1
 		},
 		{

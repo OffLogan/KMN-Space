@@ -43,19 +43,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 64,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 65,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -418,21 +418,23 @@
 			"sourceIndexes" : 
 			[
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				5
+				7
 			]
 		}
 	],
@@ -455,6 +457,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_homescreen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_notes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_noteseditor.h",
 			"sourceGroupIndex" : 1
 		},
 		{

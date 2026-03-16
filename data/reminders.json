@@ -1,12 +1,5 @@
 {
     "items": [
-        {
-            "description": "Estudiar para ED",
-            "due": "18/03/26",
-            "id": 1,
-            "name": "Examen de ed",
-            "status": false
-        }
     ],
     "version": 1
 }

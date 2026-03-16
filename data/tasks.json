@@ -1,17 +1,5 @@
 {
     "items": [
-        {
-            "description": "prueba",
-            "id": 1,
-            "name": "prueba",
-            "status": false
-        },
-        {
-            "description": "Test12321",
-            "id": 2,
-            "name": "Test1",
-            "status": false
-        }
     ],
     "version": 1
 }

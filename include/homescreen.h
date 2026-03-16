@@ -7,6 +7,8 @@
 #include "reminderGestor.h"
 #include "taskGestor.h"
 
+class notes;
+
 namespace Ui {
 class homeScreen;
 }
@@ -25,6 +27,7 @@ private slots:
     void removeTaskItem(QListWidgetItem *item);
     void removeReminderItem(QListWidgetItem *item);
     void openSettings();
+    void openNotes();
 
 private:
     void loadStoredData();
@@ -38,6 +41,7 @@ private:
     Ui::homeScreen *ui;
     TaskData taskData_;
     ReminderData reminderData_;
+    notes *notesWindow_;
 };
 
 #endif // HOMESCREEN_H

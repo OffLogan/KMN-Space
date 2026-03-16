@@ -43,19 +43,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 64,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 65,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -206,7 +206,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=c++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics"
 				}
 			],
 			"defines" : 
@@ -310,11 +310,11 @@
 			"id" : "alpha_project_lib::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "alpha_project_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "alpha_project_app_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "alpha_project_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "alpha_project_app::@6890427a1f51a3e7e1df",
@@ -418,21 +418,23 @@
 			"sourceIndexes" : 
 			[
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				5
+				7
 			]
 		}
 	],
@@ -455,6 +457,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_homescreen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_notes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/include/ui/ui_noteseditor.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -1,9 +1,12 @@
 #include "../include/homescreen.h"
+#include "../include/notes.h"
 #include "../include/settings.h"
 #include "ui_homescreen.h"
 
+#include <QMessageBox>
 #include <QListWidget>
 #include <QDate>
+#include <QFont>
 #include <QString>
 #include <QStringList>
 #include <Qt>
@@ -13,6 +16,21 @@ QString normalizedField(const QString &value, const QString &defaultLabel)
 {
     const QString trimmedValue = value.trimmed();
     return trimmedValue.compare(defaultLabel, Qt::CaseInsensitive) == 0 ? QString() : trimmedValue;
+}
+
+QDate parseDueDate(const QString& rawValue)
+{
+    const QString trimmedValue = rawValue.trimmed();
+    const QStringList formats = {"dd/MM/yy", "dd/MM/yyyy"};
+
+    for (const QString& format : formats) {
+        const QDate parsedDate = QDate::fromString(trimmedValue, format);
+        if (parsedDate.isValid()) {
+            return parsedDate;
+        }
+    }
+
+    return QDate();
 }
 
 QString taskTextFromTask(const Task& task)
@@ -45,8 +63,22 @@ homeScreen::homeScreen(QWidget *parent)
     , ui(new Ui::homeScreen)
     , taskData_()
     , reminderData_()
+    , notesWindow_(nullptr)
 {
     ui->setupUi(this);
+
+    QFont inputFont = ui->lineEdit->font();
+    inputFont.setPointSize(14);
+    ui->lineEdit->setFont(inputFont);
+    ui->lineEdit_3->setFont(inputFont);
+    ui->lineEdit_5->setFont(inputFont);
+    ui->textEdit->setFont(inputFont);
+    ui->textEdit_2->setFont(inputFont);
+
+    ui->textEdit->document()->setDocumentMargin(6);
+    ui->textEdit_2->document()->setDocumentMargin(6);
+    ui->textEdit->setStyleSheet("QTextEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
+    ui->textEdit_2->setStyleSheet("QTextEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
 
     taskData_.Load();
     reminderData_.Load();
@@ -55,6 +87,7 @@ homeScreen::homeScreen(QWidget *parent)
     connect(ui->pushButton, &QPushButton::clicked, this, &homeScreen::addTask);
     connect(ui->pushButton_3, &QPushButton::clicked, this, &homeScreen::addReminder);
     connect(ui->pushButton_2, &QPushButton::clicked, this, &homeScreen::openSettings);
+    connect(ui->pushButton_4, &QPushButton::clicked, this, &homeScreen::openNotes);
     connect(ui->listWidget, &QListWidget::itemDoubleClicked, this, &homeScreen::removeTaskItem);
     connect(ui->listWidget_2, &QListWidget::itemDoubleClicked, this, &homeScreen::removeReminderItem);
     ui->lineEdit->setPlaceholderText("Name");
@@ -62,11 +95,9 @@ homeScreen::homeScreen(QWidget *parent)
     ui->lineEdit_3->setPlaceholderText("Name");
     ui->textEdit_2->setPlaceholderText("Description");
     ui->lineEdit_5->setPlaceholderText("Day/Month/Year");
-    ui->lineEdit->setStyleSheet("QLineEdit { color: white; }");
-    ui->lineEdit_3->setStyleSheet("QLineEdit { color: white; }");
-    ui->lineEdit_5->setStyleSheet("QLineEdit { color: white; }");
-    ui->textEdit->setStyleSheet("QTextEdit { color: white; }");
-    ui->textEdit_2->setStyleSheet("QTextEdit { color: white; }");
+    ui->lineEdit->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
+    ui->lineEdit_3->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
+    ui->lineEdit_5->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
 }
 
 homeScreen::~homeScreen()
@@ -152,15 +183,18 @@ void homeScreen::addTask()
     const QString taskText = buildTaskText();
 
     if (taskText.isEmpty() || name.isEmpty()) {
+        QMessageBox::warning(this, "Task", "Write at least a name for the task.");
         return;
     }
 
     Task task(name.toStdString(), description.toStdString());
     if (!task.SetId(taskData_.NextId())) {
+        QMessageBox::warning(this, "Task", "Could not generate a valid id for the task.");
         return;
     }
 
     if (!taskData_.AddTask(task)) {
+        QMessageBox::warning(this, "Task", "Could not save the task in tasks.json.");
         return;
     }
 
@@ -176,20 +210,24 @@ void homeScreen::addReminder()
     const QString reminderText = buildReminderText();
 
     if (reminderText.isEmpty() || name.isEmpty() || dueText.isEmpty()) {
+        QMessageBox::warning(this, "Reminder", "Write a name and a due date for the reminder.");
         return;
     }
 
-    const QDate dueDate = QDate::fromString(dueText, "dd/MM/yy");
+    const QDate dueDate = parseDueDate(dueText);
     if (!dueDate.isValid()) {
+        QMessageBox::warning(this, "Reminder", "The due date must use the format dd/MM/yy or dd/MM/yyyy.");
         return;
     }
 
     Reminder reminder(name.toStdString(), description.toStdString(), dueDate.toString("dd/MM/yy").toStdString());
     if (!reminder.SetId(reminderData_.NextId())) {
+        QMessageBox::warning(this, "Reminder", "Could not generate a valid id for the reminder.");
         return;
     }
 
     if (!reminderData_.AddReminder(reminder)) {
+        QMessageBox::warning(this, "Reminder", "Could not save the reminder in reminders.json.");
         return;
     }
 
@@ -201,6 +239,7 @@ void homeScreen::removeTaskItem(QListWidgetItem *item)
 {
     const int id = item->data(Qt::UserRole).toInt();
     if (!taskData_.RemoveTask(id)) {
+        QMessageBox::warning(this, "Task", "Could not delete the task from tasks.json.");
         return;
     }
 
@@ -211,6 +250,7 @@ void homeScreen::removeReminderItem(QListWidgetItem *item)
 {
     const int id = item->data(Qt::UserRole).toInt();
     if (!reminderData_.RemoveReminder(id)) {
+        QMessageBox::warning(this, "Reminder", "Could not delete the reminder from reminders.json.");
         return;
     }
 
@@ -221,4 +261,14 @@ void homeScreen::openSettings()
 {
     settings settingsDialog(this);
     settingsDialog.exec();
+}
+
+void homeScreen::openNotes()
+{
+    if (notesWindow_ == nullptr) {
+        notesWindow_ = new notes(this);
+    }
+
+    hide();
+    notesWindow_->show();
 }

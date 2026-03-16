@@ -391,15 +391,21 @@
 			null
 		],
 		[
-			"/Users/antoniojimbermembrillo/alpha_project/include/note.h",
-			"MU",
-			"6YEA5652QU/moc_note.cpp",
-			null
-		],
-		[
 			"/Users/antoniojimbermembrillo/alpha_project/include/noteGestor.h",
 			"MU",
 			"6YEA5652QU/moc_noteGestor.cpp",
+			null
+		],
+		[
+			"/Users/antoniojimbermembrillo/alpha_project/include/notes.h",
+			"MU",
+			"6YEA5652QU/moc_notes.cpp",
+			null
+		],
+		[
+			"/Users/antoniojimbermembrillo/alpha_project/include/notesEditor.h",
+			"MU",
+			"6YEA5652QU/moc_notesEditor.cpp",
 			null
 		],
 		[
@@ -549,9 +555,18 @@
 			"MU",
 			null
 		],
-		[ "/Users/antoniojimbermembrillo/alpha_project/src/note.cc", "MU", null ],
 		[
 			"/Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc",
+			"MU",
+			null
+		],
+		[
+			"/Users/antoniojimbermembrillo/alpha_project/src/notes.cc",
+			"MU",
+			null
+		],
+		[
+			"/Users/antoniojimbermembrillo/alpha_project/src/notesEditor.cc",
 			"MU",
 			null
 		],

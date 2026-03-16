@@ -993,6 +993,9 @@ CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: \
   /Users/antoniojimbermembrillo/alpha_project/src/../include/reminder.h \
   /Users/antoniojimbermembrillo/alpha_project/src/../include/task.h \
   /Users/antoniojimbermembrillo/alpha_project/src/../include/taskGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/src/../include/notes.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/antoniojimbermembrillo/alpha_project/src/../include/settings.h \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui_homescreen.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QVariant \
@@ -1032,7 +1035,11 @@ CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QTextEdit \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/QFont \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QString \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QStringList \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/Qt

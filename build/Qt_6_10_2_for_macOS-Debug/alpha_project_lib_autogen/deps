@@ -887,6 +887,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QListWidgetItem \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
@@ -896,6 +897,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlistview.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlistwidget.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
@@ -1137,8 +1139,9 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/include/folderGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/homescreen.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/label.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/note.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/noteGestor.h \
+	/Users/antoniojimbermembrillo/alpha_project/include/notes.h \
+	/Users/antoniojimbermembrillo/alpha_project/include/notesEditor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/pdfGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/reminder.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h \
@@ -1153,8 +1156,9 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/label.cc \
-	/Users/antoniojimbermembrillo/alpha_project/src/note.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc \
+	/Users/antoniojimbermembrillo/alpha_project/src/notes.cc \
+	/Users/antoniojimbermembrillo/alpha_project/src/notesEditor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/pdfGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/reminder.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc \
@@ -1165,5 +1169,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/src/taskGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/user.cc \
 	/Users/antoniojimbermembrillo/alpha_project/ui/homescreen.ui \
+	/Users/antoniojimbermembrillo/alpha_project/ui/notes.ui \
+	/Users/antoniojimbermembrillo/alpha_project/ui/noteseditor.ui \
 	/Users/antoniojimbermembrillo/alpha_project/ui/settings.ui \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake
