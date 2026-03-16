@@ -641,9 +641,95 @@ CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/vector \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qglobal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtcoreglobal.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtversionchecks.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtconfiginclude.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qconfig.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtcore-config.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtconfigmacros.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtdeprecationdefinitions.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcompilerdetection.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qprocessordetection.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qsystemdetection.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityMacros.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtcoreexports.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtdeprecationmarkers.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtclasshelpermacros.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtpreprocessorsupport.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qassert.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtnoop.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtypes.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtversion.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtypeinfo.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcontainerfwd.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qsysinfo.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlogging.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qflags.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcompare_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qatomic.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbasicatomic.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qatomic_cxx11.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qgenericatomic.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qyieldcpu.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qconstructormacros.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdarwinhelpers.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qexceptionhandling.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qforeach.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qttypetraits.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qfunctionpointer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qglobalstatic.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmalloc.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qminmax.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qnumeric.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20type_traits.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qoverload.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qswap.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtresource.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qttranslation.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qversiontagging.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qvariant.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcompare.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstdlibdetection.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcomparehelpers.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/binary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/bind.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/binder1st.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/binder2nd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/mem_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/empty.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/format.h \
@@ -681,8 +767,6 @@ CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/indic_conjunct_break_table.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/empty.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale.h \
@@ -753,4 +837,99 @@ CMakeFiles/alpha_project_lib.dir/src/reminder.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstdarg
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstdarg \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/default_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/not_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmetatype.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbytearray.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qrefcount.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qnamespace.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qarraydata.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qpair.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qarraydatapointer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qarraydataops.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20functional.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20memory.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q17memory.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbytearrayview.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringfwd.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdatastream.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qchar.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringview.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringalgorithms.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qiodevicebase.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qscopedpointer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qfloat16.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstring.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlatin1stringview.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qanystringview.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qutf8stringview.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringtokenizer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q23type_traits.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringbuilder.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringconverter.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringconverter_base.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/pstl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmath.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qalgorithms.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtformat_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qiterable.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtaggedpointer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmetacontainer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcontainerinfo.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qscopeguard.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtextstream.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qsharedpointer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qshareddata.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/forward_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/unordered_set \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlist.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qiterator.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbytearraylist.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringlist.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringmatcher.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmap.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qshareddata_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qset.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qhash.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qalloc.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20utility.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qobject.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qobject_impl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbindingstorage.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QString

@@ -989,6 +989,10 @@ CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /Users/antoniojimbermembrillo/alpha_project/src/../include/reminderGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/src/../include/reminder.h \
+  /Users/antoniojimbermembrillo/alpha_project/src/../include/task.h \
+  /Users/antoniojimbermembrillo/alpha_project/src/../include/taskGestor.h \
   /Users/antoniojimbermembrillo/alpha_project/src/../include/settings.h \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui_homescreen.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QVariant \
@@ -1028,5 +1032,7 @@ CMakeFiles/alpha_project_lib.dir/src/homescreen.cc.o: \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QTextEdit \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QDate \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QString \
-  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QStringList
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QStringList \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/Qt

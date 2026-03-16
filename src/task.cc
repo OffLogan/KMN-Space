@@ -6,22 +6,23 @@
 
 //Constructors
 Task::Task() //Main constructors, once you tap on create task this will be used and then the modifiers will modify the task's data
-    :   name_(""), description_(""), status_(false)
+    :   id_(0), name_(""), description_(""), status_(false)
     {
         //Must think about how the id will be set after I implement the data structures
     }
 
 Task::Task(const std::string& name, const std::string& description)
-    :   name_(name), description_(description), status_(false)
+    :   id_(0), name_(name), description_(description), status_(false)
     {
         //Same for this constructors
     }
 
 
 //Observers
-const int Task::GetTaskId() const {return id_;}
+int Task::GetTaskId() const {return id_;}
 const std::string Task::GetName() const {return name_;}
 const std::string Task::GetDescription() const {return description_;}
+bool Task::GetStatus() const {return status_;}
 
 //Modifiers
 bool Task::SetId(const int id){
@@ -46,6 +47,10 @@ bool Task::SetDescription(const std::string& description){
     }
     description_ = description;
     return true;
+};
+
+void Task::SetStatus(const bool status){
+    status_ = status;
 };
 
 void Task::CompleteTask(){

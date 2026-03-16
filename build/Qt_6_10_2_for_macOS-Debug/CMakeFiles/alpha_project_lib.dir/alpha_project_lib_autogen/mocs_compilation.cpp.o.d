@@ -990,6 +990,10 @@ CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/reminderGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/reminder.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/task.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/taskGestor.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/q20algorithm.h \

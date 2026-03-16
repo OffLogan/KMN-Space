@@ -1001,4 +1001,8 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyle.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /Users/antoniojimbermembrillo/alpha_project/app/../include/reminderGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/app/../include/reminder.h \
+  /Users/antoniojimbermembrillo/alpha_project/app/../include/task.h \
+  /Users/antoniojimbermembrillo/alpha_project/app/../include/taskGestor.h

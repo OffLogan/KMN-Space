@@ -3,25 +3,31 @@
 
 #include "../include/reminder.h"
 
+#include <QDate>
+#include <QString>
 
 Reminder::Reminder()
-    :      Task(), due_date_(0)
+    :      Task(), due_date_("")
     {
         //Must setup id
     }
 
-Reminder::Reminder(const std::string& name, const std::string& description, const int due)
+Reminder::Reminder(const std::string& name, const std::string& description, const std::string& due)
     :      Task(name, description), due_date_(due)
     {
         //Must setup id
     }
 
-const int Reminder::GetDue() const{return due_date_;}
+const std::string Reminder::GetDue() const{return due_date_;}
 
-bool Reminder::SetDue(const int due){
-    if(due<=0){ //Checks if the due date is valid
+bool Reminder::SetDue(const std::string& due){
+    const QString dueDate = QString::fromStdString(due).trimmed();
+    const QDate parsedDate = QDate::fromString(dueDate, "dd/MM/yy");
+
+    if(!parsedDate.isValid()){
         return false;
     }
-    due_date_ = due;
+
+    due_date_ = parsedDate.toString("dd/MM/yy").toStdString();
     return true;
 };

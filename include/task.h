@@ -5,7 +5,6 @@
 #define TASK_H
 
 #include <string>
-#include <vector>
 
 class Task{
     private:
@@ -18,26 +17,16 @@ class Task{
         Task();
         Task(const std::string& name, const std::string& description);
         //Observers
-        const int GetTaskId() const;
+        int GetTaskId() const;
         const std::string GetName() const;
         const std::string GetDescription() const;
+        bool GetStatus() const;
         //Modifiers
         bool SetId(const int id);
         bool SetName(const std::string& name);
         bool SetDescription(const std::string& description);
+        void SetStatus(const bool status);
         void CompleteTask();
-};
-
-
-
-class TaskData{
-    private:
-        //Data structure to contains de tasks data
-        std::vector<Task>data_;
-    public:
-        TaskData();
-        std::vector<Task> Data_() const;
-        bool Load(/*path*/);
 };
 
 

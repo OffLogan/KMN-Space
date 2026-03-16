@@ -1232,8 +1232,18 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
-  /Users/antoniojimbermembrillo/alpha_project/include/homescreen.h
+  /Users/antoniojimbermembrillo/alpha_project/include/homescreen.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/reminder.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/task.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/taskGestor.h
 
+
+/Users/antoniojimbermembrillo/alpha_project/include/taskGestor.h:
+
+/Users/antoniojimbermembrillo/alpha_project/include/task.h:
+
+/Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qwidget.h:
 
@@ -3210,6 +3220,8 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
+
+/Users/antoniojimbermembrillo/alpha_project/include/reminder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternalLegacy.h:
 

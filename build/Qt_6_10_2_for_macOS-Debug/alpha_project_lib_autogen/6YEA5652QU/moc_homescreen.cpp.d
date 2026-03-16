@@ -907,4 +907,8 @@
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/reminder.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/task.h \
+  /Users/antoniojimbermembrillo/alpha_project/include/taskGestor.h
