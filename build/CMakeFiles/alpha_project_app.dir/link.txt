@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/alpha_project_app.dir/app/main.cpp.o CMakeFiles/alpha_project_app.dir/src/homescreen.cc.o CMakeFiles/alpha_project_app.dir/src/settings.cc.o -o alpha_project  libalpha_project_lib.a
