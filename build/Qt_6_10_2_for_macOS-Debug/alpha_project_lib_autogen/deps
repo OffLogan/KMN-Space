@@ -5,20 +5,45 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityMacros.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityVersions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/TargetConditionals.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/___wctype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/__wctype.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/__xlocale.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_abort.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_assert.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_bounds.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_ctermid.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_ctype.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_locale.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_mb_cur_max.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_printf.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdio.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdlib.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_string.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_strings.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_time.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_intmax_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_locale_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_nl_item.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint16_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint32_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint64_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint8_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uintmax_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_wctrans_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_wctype_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_wchar.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_wctype.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_xlocale.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/alloca.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_endian.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_limits.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_mcontext.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_types.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/endian.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/limits.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/signal.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/types.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
@@ -318,24 +343,12 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/abs.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/copysign.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/error_functions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/exponential_functions.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/fdim.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/fma.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/gamma.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/hypot.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/logarithms.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/min_max.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/modulo.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/remainder.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/roots.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/rounding_functions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/special_functions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/traits.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mbstate_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/addressof.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/align.h \
@@ -587,10 +600,8 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstdlib \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstring \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ctime \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ctype.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cwchar \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cwctype \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/errno.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/exception \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/execution \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/forward_list \
@@ -602,9 +613,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/limits \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/list \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/locale \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/locale.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/map \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/math.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/memory \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/mutex \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/new \
@@ -613,14 +622,9 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ratio \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stddef.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdexcept \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdint.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdio.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdlib.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/streambuf \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/string \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/string.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/string_view \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/system_error \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/tuple \
@@ -632,19 +636,36 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/variant \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/vector \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/version \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wchar.h \
-	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wctype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/ctype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/errno.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/_OSByteOrder.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/arm/_OSByteOrder.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/limits.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/locale.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/mach/arm/_structs.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/mach/machine/_structs.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_endian.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_mcontext.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_types.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/endian.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/limits.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/signal.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/types.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/malloc/_malloc.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/malloc/_malloc_type.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/malloc/_ptrcheck.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/math.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/nl_types.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread_impl.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/qos.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/sched.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/runetype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdint.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdio.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdlib.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/string.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/__endian.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_endian.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_posix_availability.h \
@@ -665,6 +686,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_blksize_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_caddr_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_clock_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ct_rune_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_errno_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_clr.h \
@@ -694,14 +716,20 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_nlink_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_null.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_off_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_offsetof.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_pid_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ptrdiff_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_rsize_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_rune_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_seek_set.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_sigaltstack.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_sigset_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_size_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ssize_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_suseconds_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_time_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_timespec.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_timeval.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_char.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int16_t.h \
@@ -709,25 +737,48 @@ alpha_project_lib_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int64_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int8_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_short.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ucontext.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_uid_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_uintptr_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_useconds_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_va_list.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_wchar_t.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_wint_t.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/appleapiopts.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/cdefs.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/errno.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/qos.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/resource.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/signal.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/stdio.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/syslimits.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/types.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/wait.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/time.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/wchar.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/wctype.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/___wctype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_ctype.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_stdio.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_stdlib.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_string.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_time.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_wchar.h \
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/xlocale/_wctype.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_header_macro.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_list.h \
-	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/QList \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
@@ -736,6 +787,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q23type_traits.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qalloc.h \
@@ -747,6 +799,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
@@ -764,10 +817,15 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -779,6 +837,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
@@ -796,6 +855,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -853,37 +913,51 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/QShowEvent \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qevent.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QListWidgetItem \
@@ -1073,6 +1147,15 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
+	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
@@ -1112,6 +1195,7 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake \
+	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindCups.cmake \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindOpenGL.cmake \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake \
@@ -1134,11 +1218,8 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/moc_predefs.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/dataGestorJSON.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/folder.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/folderGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/homescreen.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/label.h \
+	/Users/antoniojimbermembrillo/alpha_project/include/note.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/noteGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/notes.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/notesEditor.h \
@@ -1147,15 +1228,12 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/schedule.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/settings.h \
-	/Users/antoniojimbermembrillo/alpha_project/include/subject.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/task.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/taskGestor.h \
 	/Users/antoniojimbermembrillo/alpha_project/include/user.h \
-	/Users/antoniojimbermembrillo/alpha_project/src/dataGestorJSON.cc \
-	/Users/antoniojimbermembrillo/alpha_project/src/folder.cc \
-	/Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc \
+	/Users/antoniojimbermembrillo/alpha_project/resources/resources.qrc \
 	/Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc \
-	/Users/antoniojimbermembrillo/alpha_project/src/label.cc \
+	/Users/antoniojimbermembrillo/alpha_project/src/note.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/notes.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/notesEditor.cc \
@@ -1164,12 +1242,12 @@ alpha_project_lib_autogen/timestamp: \
 	/Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/schedule.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/settings.cc \
-	/Users/antoniojimbermembrillo/alpha_project/src/subject.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/task.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/taskGestor.cc \
 	/Users/antoniojimbermembrillo/alpha_project/src/user.cc \
 	/Users/antoniojimbermembrillo/alpha_project/ui/homescreen.ui \
 	/Users/antoniojimbermembrillo/alpha_project/ui/notes.ui \
 	/Users/antoniojimbermembrillo/alpha_project/ui/noteseditor.ui \
+	/Users/antoniojimbermembrillo/alpha_project/ui/schedule.ui \
 	/Users/antoniojimbermembrillo/alpha_project/ui/settings.ui \
 	/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

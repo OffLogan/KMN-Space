@@ -2,12 +2,14 @@
 #define HOMESCREEN_H
 
 #include <QDialog>
+#include <QShowEvent>
 #include <QListWidgetItem>
 
 #include "reminderGestor.h"
 #include "taskGestor.h"
 
 class notes;
+class schedule;
 
 namespace Ui {
 class homeScreen;
@@ -21,6 +23,9 @@ public:
     explicit homeScreen(QWidget *parent = nullptr);
     ~homeScreen();
 
+protected:
+    void showEvent(QShowEvent *event) override;
+
 private slots:
     void addTask();
     void addReminder();
@@ -28,6 +33,7 @@ private slots:
     void removeReminderItem(QListWidgetItem *item);
     void openSettings();
     void openNotes();
+    void openSchedule();
 
 private:
     void loadStoredData();
@@ -42,6 +48,7 @@ private:
     TaskData taskData_;
     ReminderData reminderData_;
     notes *notesWindow_;
+    schedule *scheduleWindow_;
 };
 
 #endif // HOMESCREEN_H

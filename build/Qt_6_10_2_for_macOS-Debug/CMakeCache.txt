@@ -273,6 +273,12 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+CUPS_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include
+
+//Path to a library.
+CUPS_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/lib/libcups.tbd
+
 //Path to a program.
 MACDEPLOYQT_EXECUTABLE:FILEPATH=/Users/antoniojimbermembrillo/Qt/6.10.2/macos/bin/macdeployqt
 
@@ -327,6 +333,9 @@ Qt6GuiTools_DIR:PATH=/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6
 
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui
+
+//The directory containing a CMake configuration file for Qt6PrintSupport.
+Qt6PrintSupport_DIR:PATH=/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools
@@ -506,6 +515,10 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CUPS_INCLUDE_DIR
+CUPS_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CUPS_LIBRARIES
+CUPS_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/OpenGL.framework][c ][v()]
 //Test HAVE_STDATOMIC
@@ -619,6 +632,12 @@ QT_FEATURE_cross_compile:INTERNAL=OFF
 QT_FEATURE_cssparser:INTERNAL=ON
 //Qt feature: ctf (from target Qt6::Core)
 QT_FEATURE_ctf:INTERNAL=OFF
+//Qt feature: cups (from target Qt6::PrintSupport)
+QT_FEATURE_cups:INTERNAL=ON
+//Qt feature: cupsjobwidget (from target Qt6::PrintSupport)
+QT_FEATURE_cupsjobwidget:INTERNAL=ON
+//Qt feature: cupspassworddialog (from target Qt6::PrintSupport)
+QT_FEATURE_cupspassworddialog:INTERNAL=ON
 //Qt feature: cursor (from target Qt6::Gui)
 QT_FEATURE_cursor:INTERNAL=ON
 //Qt feature: cxx11_future (from target Qt6::Core)
@@ -991,6 +1010,14 @@ QT_FEATURE_posix_fallocate:INTERNAL=OFF
 QT_FEATURE_posix_sem:INTERNAL=ON
 //Qt feature: posix_shm (from target Qt6::Core)
 QT_FEATURE_posix_shm:INTERNAL=ON
+//Qt feature: printdialog (from target Qt6::PrintSupport)
+QT_FEATURE_printdialog:INTERNAL=ON
+//Qt feature: printer (from target Qt6::PrintSupport)
+QT_FEATURE_printer:INTERNAL=ON
+//Qt feature: printpreviewdialog (from target Qt6::PrintSupport)
+QT_FEATURE_printpreviewdialog:INTERNAL=ON
+//Qt feature: printpreviewwidget (from target Qt6::PrintSupport)
+QT_FEATURE_printpreviewwidget:INTERNAL=ON
 //Qt feature: printsupport (from target Qt6::Core)
 QT_FEATURE_printsupport:INTERNAL=ON
 //Qt feature: private_tests (from target Qt6::Core)

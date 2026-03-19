@@ -166,6 +166,15 @@
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake
+ /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake
  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake
@@ -206,6 +215,7 @@
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake
+ /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindCups.cmake
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindOpenGL.cmake
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake
@@ -228,6 +238,7 @@
  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake
  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake
  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake
+ /Users/antoniojimbermembrillo/alpha_project/resources/resources.qrc
 
 CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o
  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_app_autogen/mocs_compilation.cpp

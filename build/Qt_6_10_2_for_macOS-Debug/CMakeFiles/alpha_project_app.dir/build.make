@@ -116,9 +116,11 @@ alpha_project: CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_c
 alpha_project: CMakeFiles/alpha_project_app.dir/app/main.cpp.o
 alpha_project: CMakeFiles/alpha_project_app.dir/build.make
 alpha_project: libalpha_project_lib.a
+alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport
 alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/QtGui
 alpha_project: /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/QtCore
+alpha_project: /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/lib/libcups.tbd
 alpha_project: CMakeFiles/alpha_project_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable alpha_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/alpha_project_app.dir/link.txt --verbose=$(VERBOSE)

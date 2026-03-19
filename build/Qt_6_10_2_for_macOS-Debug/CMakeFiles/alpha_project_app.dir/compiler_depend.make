@@ -165,6 +165,15 @@ alpha_project_app_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/mac
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
@@ -205,6 +214,7 @@ alpha_project_app_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/mac
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake \
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake \
+  /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindCups.cmake \
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindOpenGL.cmake \
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
   /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake \
@@ -226,7 +236,8 @@ alpha_project_app_autogen/timestamp: /Users/antoniojimbermembrillo/Qt/6.10.2/mac
   .qtcreator/cmake-helper/package-manager.cmake \
   .qtcreator/cmake-helper/qtcreator-project.cmake \
   CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.30.5/CMakeSystem.cmake
+  CMakeFiles/3.30.5/CMakeSystem.cmake \
+  /Users/antoniojimbermembrillo/alpha_project/resources/resources.qrc
 
 CMakeFiles/alpha_project_app.dir/alpha_project_app_autogen/mocs_compilation.cpp.o: alpha_project_app_autogen/mocs_compilation.cpp
 
@@ -1297,8 +1308,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h:
 
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qversiontagging.h:
-
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qvariant.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtypes.h:
@@ -1731,8 +1740,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/climits:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/chrono:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cctype:
@@ -1791,6 +1798,12 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/as_const.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/limits.h:
@@ -1817,15 +1830,11 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__system_error/errc.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
@@ -2033,12 +2042,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/voidify.h:
 
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qpalette.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/map:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__std_mbstate_t.h:
@@ -2066,8 +2069,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/concepts.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/allocator.h:
 
@@ -2236,10 +2237,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/is_transparent.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
@@ -2455,10 +2452,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/fstream.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__undef_macros:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
@@ -2475,6 +2468,8 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qobjectdefs.h:
 
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
@@ -2484,6 +2479,26 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/version:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/in_place.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/ignore.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/cxx_atomic_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
@@ -2503,25 +2518,13 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/errno.h:
-
-/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/format_to_n_result.h:
-
-/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_strings.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h:
 
@@ -2613,8 +2616,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_intmax_t.h:
@@ -2630,8 +2631,6 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/wctype.h:
 
@@ -2745,6 +2744,14 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/format_to_n_result.h:
+
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
+
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/concepts.h:
@@ -2759,9 +2766,9 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
-/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
+
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
@@ -2887,7 +2894,11 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: /Users/antoniojimbermembrillo/a
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint16_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_strings.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h:
 
@@ -2942,6 +2953,14 @@ alpha_project_app_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/sample.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qpalette.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/map:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+
+/Users/antoniojimbermembrillo/alpha_project/resources/resources.qrc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/type_traits:
 
@@ -3021,15 +3040,21 @@ alpha_project_app_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__undef_macros:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/fstream.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/fence.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake:
+
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtconfiginclude.h:
 
 /Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/fence.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qsystemdetection.h:
 
@@ -3055,9 +3080,9 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uintmax_t.h:
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uintmax_t.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
 
@@ -3125,17 +3150,13 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/swap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
@@ -3155,9 +3176,33 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qversiontagging.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ranges/subrange.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
+
+/Users/antoniojimbermembrillo/alpha_project/app/main.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_time.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
@@ -3177,13 +3222,9 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake:
+
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
-
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qmetacontainer.h:
 
@@ -3285,8 +3326,6 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
-
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/system_clock.h:
@@ -3321,6 +3360,8 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
@@ -3348,12 +3389,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/version:
-
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
@@ -3497,10 +3532,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__assert:
 
-/Users/antoniojimbermembrillo/alpha_project/app/main.cpp:
-
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
@@ -3511,9 +3542,23 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
+
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
-/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/chrono:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/swap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_va_list.h:
 
@@ -3541,10 +3586,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_time.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/addressof.h:
@@ -3557,9 +3598,9 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake:
 
-/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
-
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_wctrans_t.h:
 
@@ -3580,10 +3621,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qtversion.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ranges/subrange.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
@@ -3641,14 +3678,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/in_place.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/ignore.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/cxx_atomic_impl.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/equal.h:
@@ -3660,8 +3689,6 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
-
-/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/format_parse_context.h:
 
@@ -3679,19 +3706,21 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/file_clock.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qstringbuilder.h:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
+
+/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake:
 
 /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
@@ -3702,5 +3731,9 @@ CMakeFiles/3.30.5/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_mcontext.h:
+
+/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindCups.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/copy.h:

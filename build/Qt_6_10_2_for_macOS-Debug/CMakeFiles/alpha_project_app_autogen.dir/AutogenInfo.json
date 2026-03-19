@@ -306,6 +306,19 @@
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+		"/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake",
+		"/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindCups.cmake",
+		"/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Config.cmake",
@@ -352,7 +365,8 @@
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"/Users/antoniojimbermembrillo/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/Users/antoniojimbermembrillo/alpha_project/resources/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/antoniojimbermembrillo/alpha_project",
 	"CROSS_CONFIG" : false,
@@ -367,6 +381,7 @@
 		"PLATFORM_MACOS=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_PRINTSUPPORT_LIB",
 		"QT_QML_DEBUG",
 		"QT_WIDGETS_LIB"
 	],
@@ -388,9 +403,11 @@
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/include",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers",
 		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtPrintSupport.framework/Headers",
+		"/Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtPrintSupport.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
@@ -417,9 +434,11 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/3YJK5W5UP7/qrc_resources.cpp",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_homescreen.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_notes.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_noteseditor.h",
+		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_schedule.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_settings.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp"
 	],
@@ -443,9 +462,11 @@
 	"UIC_SEARCH_PATHS" : [ "/Users/antoniojimbermembrillo/alpha_project/ui" ],
 	"UIC_SKIP" : 
 	[
+		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/3YJK5W5UP7/qrc_resources.cpp",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_homescreen.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_notes.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_noteseditor.h",
+		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_schedule.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/include/ui/ui_settings.h",
 		"/Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/mocs_compilation.cpp"
 	],

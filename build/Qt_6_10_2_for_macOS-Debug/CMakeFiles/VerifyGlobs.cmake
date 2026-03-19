@@ -5,11 +5,8 @@ cmake_policy(SET CMP0009 NEW)
 # PROJECT_HEADERS at CMakeLists.txt:15 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/antoniojimbermembrillo/alpha_project/include/*.h")
 set(OLD_GLOB
-  "/Users/antoniojimbermembrillo/alpha_project/include/dataGestorJSON.h"
-  "/Users/antoniojimbermembrillo/alpha_project/include/folder.h"
-  "/Users/antoniojimbermembrillo/alpha_project/include/folderGestor.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/homescreen.h"
-  "/Users/antoniojimbermembrillo/alpha_project/include/label.h"
+  "/Users/antoniojimbermembrillo/alpha_project/include/note.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/noteGestor.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/notes.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/notesEditor.h"
@@ -18,7 +15,6 @@ set(OLD_GLOB
   "/Users/antoniojimbermembrillo/alpha_project/include/reminderGestor.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/schedule.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/settings.h"
-  "/Users/antoniojimbermembrillo/alpha_project/include/subject.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/task.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/taskGestor.h"
   "/Users/antoniojimbermembrillo/alpha_project/include/user.h"
@@ -31,11 +27,8 @@ endif()
 # PROJECT_SOURCES at CMakeLists.txt:19 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/antoniojimbermembrillo/alpha_project/src/*.cc")
 set(OLD_GLOB
-  "/Users/antoniojimbermembrillo/alpha_project/src/dataGestorJSON.cc"
-  "/Users/antoniojimbermembrillo/alpha_project/src/folder.cc"
-  "/Users/antoniojimbermembrillo/alpha_project/src/folderGestor.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/homescreen.cc"
-  "/Users/antoniojimbermembrillo/alpha_project/src/label.cc"
+  "/Users/antoniojimbermembrillo/alpha_project/src/note.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/noteGestor.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/notes.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/notesEditor.cc"
@@ -44,7 +37,6 @@ set(OLD_GLOB
   "/Users/antoniojimbermembrillo/alpha_project/src/reminderGestor.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/schedule.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/settings.cc"
-  "/Users/antoniojimbermembrillo/alpha_project/src/subject.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/task.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/taskGestor.cc"
   "/Users/antoniojimbermembrillo/alpha_project/src/user.cc"

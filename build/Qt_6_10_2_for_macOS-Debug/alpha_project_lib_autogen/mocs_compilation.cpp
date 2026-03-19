@@ -2,4 +2,5 @@
 #include "6YEA5652QU/moc_homescreen.cpp"
 #include "6YEA5652QU/moc_notes.cpp"
 #include "6YEA5652QU/moc_notesEditor.cpp"
+#include "6YEA5652QU/moc_schedule.cpp"
 #include "6YEA5652QU/moc_settings.cpp"

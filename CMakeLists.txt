@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui")
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets PrintSupport)
 
 file(GLOB PROJECT_HEADERS CONFIGURE_DEPENDS
     "${CMAKE_CURRENT_SOURCE_DIR}/include/*.h"
@@ -28,9 +28,11 @@ endif()
 add_library(alpha_project_lib STATIC
     ${PROJECT_HEADERS}
     ${PROJECT_SOURCES}
+    resources/resources.qrc
     ui/homescreen.ui
     ui/notes.ui
     ui/noteseditor.ui
+    ui/schedule.ui
     ui/settings.ui
 )
 
@@ -42,6 +44,7 @@ target_include_directories(alpha_project_lib
 target_link_libraries(alpha_project_lib
     PUBLIC
         Qt6::Widgets
+        Qt6::PrintSupport
 )
 
 if(APPLE)

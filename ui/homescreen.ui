@@ -18,16 +18,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QCalendarWidget" name="calendarWidget">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>271</width>
-     <height>181</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
@@ -163,7 +153,7 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>330</y>
+     <y>400</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -181,9 +171,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>360</y>
+     <y>450</y>
      <width>271</width>
-     <height>271</height>
+     <height>181</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -192,17 +182,14 @@
    <property name="frameShadow">
     <enum>QFrame::Shadow::Raised</enum>
    </property>
-   <widget class="QLabel" name="label">
+   <widget class="QCalendarWidget" name="calendarWidget">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>80</y>
-      <width>131</width>
-      <height>71</height>
+      <x>0</x>
+      <y>0</y>
+      <width>271</width>
+      <height>181</height>
      </rect>
-    </property>
-    <property name="text">
-     <string>INSERT LOGO</string>
     </property>
    </widget>
   </widget>
@@ -288,7 +275,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>600</x>
+     <x>470</x>
      <y>10</y>
      <width>181</width>
      <height>61</height>
@@ -309,13 +296,42 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>250</y>
+     <y>270</y>
      <width>141</width>
      <height>51</height>
     </rect>
    </property>
    <property name="text">
-    <string>Notas</string>
+    <string>Notes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>660</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Schedule</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>231</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INSERT LOGO</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
  </widget>

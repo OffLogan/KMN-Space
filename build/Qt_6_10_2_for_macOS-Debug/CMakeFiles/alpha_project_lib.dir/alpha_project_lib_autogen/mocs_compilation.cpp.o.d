@@ -970,6 +970,35 @@ CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/QShowEvent \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qevent.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcoreevent.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbasictimer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qeventpoint.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvector2d.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvectornd.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qpointingdevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qinputdevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qscreen.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QList \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QRect \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QSize \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QSizeF \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/QTransform \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qscreen_platform.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qguiapplication.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qinputmethod.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QListWidgetItem \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlistview.h \
@@ -980,7 +1009,6 @@ CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
-  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvalidator.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
@@ -1001,7 +1029,11 @@ CMakeFiles/alpha_project_lib.dir/alpha_project_lib_autogen/mocs_compilation.cpp.
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/notes.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/noteGestor.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/note.h \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_notesEditor.cpp \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/notesEditor.h \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_schedule.cpp \
+  /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/schedule.h \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/moc_settings.cpp \
   /Users/antoniojimbermembrillo/alpha_project/build/Qt_6_10_2_for_macOS-Debug/alpha_project_lib_autogen/6YEA5652QU/../../../../include/settings.h

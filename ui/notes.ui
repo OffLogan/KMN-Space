@@ -11,14 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Notes</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>950</x>
-      <y>590</y>
+      <x>740</x>
+      <y>490</y>
       <width>113</width>
       <height>32</height>
      </rect>
@@ -27,12 +27,38 @@
      <string>Home</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="newNoteButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>310</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New note</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteNoteButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>430</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>-20</y>
-      <width>391</width>
+      <x>700</x>
+      <y>60</y>
+      <width>201</width>
       <height>101</height>
      </rect>
     </property>
@@ -42,7 +68,28 @@
      </font>
     </property>
     <property name="text">
-     <string>Gestor de notas</string>
+     <string>Notes gestor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>160</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Double click a note in the tree to open it in the editor.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QTreeWidget" name="treeWidget">
@@ -59,6 +106,45 @@
       <string notr="true">1</string>
      </property>
     </column>
+   </widget>
+   <widget class="QPushButton" name="newFolderButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>370</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downloadTxtButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>550</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download TXT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downloadPdfButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>590</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download PDF</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

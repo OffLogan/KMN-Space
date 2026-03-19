@@ -1,12 +1,17 @@
 #include "../include/homescreen.h"
 #include "../include/notes.h"
 #include "../include/settings.h"
+#include "../include/schedule.h"
 #include "ui_homescreen.h"
 
 #include <QMessageBox>
 #include <QListWidget>
 #include <QDate>
+#include <QCoreApplication>
+#include <QDir>
+#include <QFileInfo>
 #include <QFont>
+#include <QPixmap>
 #include <QString>
 #include <QStringList>
 #include <Qt>
@@ -56,6 +61,34 @@ QString reminderTextFromReminder(const Reminder& reminder)
     parts << QString("Due: %1").arg(reminder.GetDue());
     return parts.join(" | ");
 }
+
+QPixmap loadLogoPixmap()
+{
+    const QPixmap resourcePixmap(":/images/kmn_logo.PNG");
+    if (!resourcePixmap.isNull()) {
+        return resourcePixmap;
+    }
+
+    const QString appDir = QCoreApplication::applicationDirPath();
+    const QStringList candidates = {
+        QDir::current().filePath("resources/kmn_logo.PNG"),
+        QDir(appDir).filePath("resources/kmn_logo.PNG"),
+        QDir(appDir).filePath("../resources/kmn_logo.PNG"),
+        QDir(appDir).filePath("../../resources/kmn_logo.PNG"),
+        QDir(appDir).filePath("../../../resources/kmn_logo.PNG")
+    };
+
+    for (const QString& path : candidates) {
+        if (QFileInfo::exists(path)) {
+            const QPixmap filePixmap(path);
+            if (!filePixmap.isNull()) {
+                return filePixmap;
+            }
+        }
+    }
+
+    return QPixmap();
+}
 }
 
 homeScreen::homeScreen(QWidget *parent)
@@ -64,6 +97,7 @@ homeScreen::homeScreen(QWidget *parent)
     , taskData_()
     , reminderData_()
     , notesWindow_(nullptr)
+    , scheduleWindow_(nullptr)
 {
     ui->setupUi(this);
 
@@ -88,6 +122,7 @@ homeScreen::homeScreen(QWidget *parent)
     connect(ui->pushButton_3, &QPushButton::clicked, this, &homeScreen::addReminder);
     connect(ui->pushButton_2, &QPushButton::clicked, this, &homeScreen::openSettings);
     connect(ui->pushButton_4, &QPushButton::clicked, this, &homeScreen::openNotes);
+    connect(ui->pushButton_5, &QPushButton::clicked, this, &homeScreen::openSchedule);
     connect(ui->listWidget, &QListWidget::itemDoubleClicked, this, &homeScreen::removeTaskItem);
     connect(ui->listWidget_2, &QListWidget::itemDoubleClicked, this, &homeScreen::removeReminderItem);
     ui->lineEdit->setPlaceholderText("Name");
@@ -98,11 +133,29 @@ homeScreen::homeScreen(QWidget *parent)
     ui->lineEdit->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
     ui->lineEdit_3->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
     ui->lineEdit_5->setStyleSheet("QLineEdit { color: white; padding-top: 2px; padding-bottom: 2px; }");
+
+    const QPixmap logoPixmap = loadLogoPixmap();
+    if (!logoPixmap.isNull()) {
+        ui->label->setPixmap(logoPixmap.scaled(ui->label->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
+        ui->label->setAlignment(Qt::AlignCenter);
+    } else {
+        ui->label->setText("Logo not found");
+        ui->label->setAlignment(Qt::AlignCenter);
+    }
 }
 
 homeScreen::~homeScreen()
 {
     delete ui;
+}
+
+void homeScreen::showEvent(QShowEvent *event)
+{
+    QDialog::showEvent(event);
+
+    taskData_.Load();
+    reminderData_.Load();
+    loadStoredData();
 }
 
 void homeScreen::loadStoredData()
@@ -271,4 +324,15 @@ void homeScreen::openNotes()
 
     hide();
     notesWindow_->show();
+}
+
+void homeScreen::openSchedule()
+{
+    if (scheduleWindow_ == nullptr) {
+        scheduleWindow_ = new schedule(this);
+    }
+
+    scheduleWindow_->load();
+    hide();
+    scheduleWindow_->show();
 }

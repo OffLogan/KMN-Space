@@ -983,6 +983,23 @@ CMakeFiles/alpha_project_app.dir/app/main.cpp.o: \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qfontinfo.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/QShowEvent \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qevent.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qeventpoint.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvector2d.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvectornd.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qpointingdevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qinputdevice.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qscreen.h \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QList \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QRect \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QSize \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtCore.framework/Headers/QSizeF \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/QTransform \
+  /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qscreen_platform.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QListWidgetItem \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /Users/antoniojimbermembrillo/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlistview.h \
